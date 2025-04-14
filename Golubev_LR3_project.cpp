@@ -65,7 +65,10 @@ void inputX() {
 }
 
 void inputY() {
-    // TODO: реализовать ввод Y с проверкой на положительность
+    do {
+        cout << "Введите Y (>0): ";
+        cin >> Y;
+    } while (Y <= 0);
 }
 
 void calculateArithmeticMean() {
