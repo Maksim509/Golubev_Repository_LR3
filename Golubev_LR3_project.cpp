@@ -72,7 +72,15 @@ void inputY() {
 }
 
 void calculateArithmeticMean() {
-    // TODO: реализовать вычисление среднего арифметического
+    // Проверка, что оба числа были введены
+    if (X <= 0 || Y <= 0) {
+        cout << "Ошибка! Сначала введите оба положительных числа (X и Y).\n";
+        return;
+    }
+    
+    double Sr = (X + Y) / 2;
+    cout << "Среднее арифметическое чисел " << X << " и " << Y 
+         << " равно: " << Sr << endl;
 }
 
 void calculateGeometricMean() {
