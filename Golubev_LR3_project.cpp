@@ -84,5 +84,7 @@ void calculateArithmeticMean() {
 }
 
 void calculateGeometricMean() {
-    // TODO: реализовать вычисление среднего геометрического
+    cout << sqrt(X * Y) << endl;
+
+    
 }
